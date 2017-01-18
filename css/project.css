@@ -1,0 +1,30 @@
+.projects {
+height: 300px;
+width: 250px;
+display: inline-block;
+position: relative;
+padding: 0px;
+margin: 35px;
+}
+
+.projects p {
+font-family: Georgia;
+font-size: 21px;
+font-style: italic;
+color: indigo;
+}
+
+.inside {
+height: 300px;
+width: 250px;
+-moz-transition: -moz-transform 1s;
+-ms-transition: -ms-transform 1s; 
+-webkit-transition: -webkit-transform 1s;
+}
+
+.inside:hover {
+-moz-transform: rotate(360deg);
+-ms-transform: rotate(360deg);	
+-webkit-transform: rotate(360deg);
+box-shadow: 5px 5px 5px blue;
+}
